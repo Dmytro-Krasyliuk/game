@@ -1,0 +1,36 @@
+.sheep {
+ width: 200px;
+ top: 500px;
+ left: 20px;
+ position: absolute;
+ animation: 20s sheep infinite;
+}
+@keyframes sheep {
+    0% {
+ left: 20px;
+    }
+    100% {
+ left: 2000px;
+    }
+}
+
+
+body {
+    background: yellowgreen;
+}
+
+.balance {
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    width: 100px;
+    align-items: center;
+    padding: 5px;
+}
+.balance-img {
+    width: 50%;
+}
+img {
+    max-width: 100%;
+}
